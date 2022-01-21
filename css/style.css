@@ -969,6 +969,7 @@ a.btn{
     background-size:cover;
 }
 .single_like{
+    background-color: #ffffff;
     max-width:550px;
     padding:75px 0px;
 }
