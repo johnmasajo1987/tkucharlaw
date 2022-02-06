@@ -33,7 +33,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 a.filled-button {
-	background-color: #a4c639;
+	background-color: #006BA6;
 	color: #fff;
 	font-size: 13px;
 	text-transform: uppercase;
@@ -45,7 +45,7 @@ a.filled-button {
 }
 
 a.filled-button:hover {
-	background-color: #fff;
+	background-color: #25291C;
 	color: #a4c639;
 }
 
