@@ -4116,19 +4116,24 @@ hr {
 	color: #19647E;
 	font-weight: 700;
 	font-size: 25px;
-	margin-bottom: 38px
+	margin-bottom: 38px;
+	text-align: center;
 }
 
 .services-details .s-details-caption .details-pera1 {
-	margin-bottom: 38px
+	margin-bottom: 38px;
+	text-align: justify;
+
 }
 
 .services-details .s-details-caption .details-pera2 {
-	margin-bottom: 38px
+	margin-bottom: 38px;
+	text-align: justify;
 }
 
 .services-details .s-details-caption .details-pera3 {
-	margin-bottom: 65px
+	margin-bottom: 65px;
+	text-align: justify;
 }
 
 .latest-blog-area .area-heading {
