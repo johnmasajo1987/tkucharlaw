@@ -2099,8 +2099,8 @@ hr {
 }
 
 .section-padding30 {
-	padding-top: 50px;
-	padding-bottom: 50px
+	padding-top: 25px;
+	padding-bottom: 25px
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
@@ -2383,7 +2383,7 @@ hr {
 
 .header-area {
 	padding: 0 230px;
-	background: #F0FFFE;
+	background: #ffffff;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
@@ -2444,7 +2444,7 @@ hr {
 }
 
 .header-area .main-menu ul li a {
-	color: #19647E;
+	color: #31220D;
 	font-weight: 500;
 	padding: 37px 27px;
 	display: block;
@@ -2470,18 +2470,20 @@ hr {
 }
 
 .header-area .main-menu ul li:hover>a {
-	color: #da0000
+	color: #F58B00;
+	border-bottom: 3px solid #DC851F;
+	border-top: 3px solid #DC851F;
 }
 
 .header-area .main-menu ul ul.submenu {
 	position: absolute;
 	width: 170px;
-	background: #F0FFFE;
+	background: #FFFFFF;
 	left: 0;
 	top: 120%;
 	visibility: hidden;
 	opacity: 0;
-	border-top: 5px solid #bf0100;
+	/*border-top: 5px solid #DC851F;*/
 	box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.05);
 	padding: 17px 0;
 	-webkit-transition: all .3s ease-out 0s;
@@ -2499,11 +2501,11 @@ hr {
 .header-area .main-menu ul ul.submenu>li>a {
 	padding: 6px 10px !important;
 	font-size: 14px;
-	color: #0b1c39
+	color: #31220D
 }
 
 .header-area .main-menu ul ul.submenu>li>a:hover {
-	color: #bf0100
+	color: #F58B00
 }
 
 .header-area ul>li:hover>ul.submenu {
@@ -2525,7 +2527,7 @@ hr {
 }
 
 .header-sticky.sticky-bar.sticky .header-btn .get-btn {
-	padding: 20px 20px
+	padding: 20px 20px;
 }
 
 .header-area .slicknav_btn {
@@ -2861,11 +2863,13 @@ hr {
 }
 
 .legal-practice-area {
-	background-color: #119DA4;
+	background-color: #FFFFFF;
+	padding-top: 60px !important;
+	padding-bottom: 60px !important;
 }
 
 .legal-practice-area h2{
-	color: #F0FFFE;
+	color: #31220D;
 }
 
 .legal-practice-area .single-practice .practice-img {
@@ -2904,7 +2908,8 @@ hr {
 
 .legal-practice-area .single-practice .practice-caption {
 	background: #fcfcfc;
-	padding: 34px 22px 18px 37px
+	padding: 34px 22px 18px 37px;
+	text-align: justify;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
@@ -3319,7 +3324,8 @@ hr {
 	color: #19647E;
 	line-height: 1.6;
 	margin-bottom: 63px;
-	padding-right: 50px
+	padding-right: 50px;
+	text-align: justify;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
@@ -3403,7 +3409,7 @@ hr {
 }
 
 .about-bg {
-	background: #F0FFFE
+	background: #FFFFFF
 }
 
 @media (max-width: 767px) {
